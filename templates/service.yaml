@@ -12,4 +12,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-      nodeport: {{.values.service.nodeport}} #image ports changes
+      nodeport: {{.Values.service.nodeport}} #image ports changes
