@@ -1,5 +1,5 @@
 deployment:
   replicas: 3
-  imageversion: stable-alpine-slim
+  imageversion: stable-alpine3.23-perl
 service:
   nodeport: 30007
